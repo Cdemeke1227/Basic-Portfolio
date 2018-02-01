@@ -231,21 +231,21 @@ h1 {
     color: #ffffff;
 }
 h2 {
-    font: 'Helvetica Neue';
+    font: 'Georgia';
     font-size: 30px;
     text-align: left;
     color: #4aaaa5;
 }
 
 h3 {
-    font: 'Helvetica Neue';
+    font: 'Georgia';
     font-size: 20px;
     text-align: left;
     color: #4aaaa5;
 }
 
 h4 {
-    font: Arial;
+    font: 'Georgia';
     font-size: 12px;
     text-align: center;
     color: #cccccc;
@@ -258,7 +258,7 @@ h4 {
     width: 275px;
     height: 40px;
     margin-left: 20px;
-    font: Arial;
+    font: 'Georgia';
     font-size: 14px;
     text-align: center;
     background: #4aaaa5;
@@ -273,7 +273,7 @@ h4 {
     width: 275px;
     height: 40px;
     margin-left: 335px;
-    font: Arial;
+    font: 'Georgia';
     font-size: 14px;
     text-align: center;
     background: #4aaaa5;
@@ -289,7 +289,7 @@ h4 {
     height: 40px;
     margin-top: 270px;
     margin-left: 20px;
-    font: Arial;
+    font: 'Georgia';
     font-size: 14px;
     text-align: center;
     background: #4aaaa5;
@@ -305,7 +305,7 @@ h4 {
     height: 40px;
     margin-top: 270px;
     margin-left: 335px;
-    font: Arial;
+    font: 'Georgia';
     font-size: 14px;
     text-align: center;
     background: #4aaaa5;
@@ -321,7 +321,7 @@ h4 {
     height: 40px;
     margin-top: 510px;
     margin-left: 20px;
-    font: Arial;
+    font: 'Georgia';
     font-size: 14px;
     text-align: center;
     background: #4aaaa5;
