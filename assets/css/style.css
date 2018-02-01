@@ -1,13 +1,17 @@
 /* HW Basic Portfolio - Christopher Demeke */
+/*****************************/
+/*****************************/
 * {
     box-sizing: border-box;
-    /* text-align: center; */
 }
 
 body {
     background: #dddddd;
 }
-
+/*****************************/
+/*****************************/
+/* Header Section */
+/*****************************/
 header {
     position: fixed;
     top:0;
@@ -48,11 +52,14 @@ nav li {
     font-family: Helvetica;
     font-size: 18px;
  }
- 
-.wrapper {
+/*****************************/
+/*****************************/
+ /* Next section is Page Content portion */
+ /*****************************/
+ .wrapper {
     padding: 70px;
     background-image: url("../images/circles-light/circles-light.png");
-    height: 1020px;
+    height: 1030px;
     margin: 10px, 600px, 10px, 60px;
     }
 
@@ -69,19 +76,6 @@ nav li {
         clear: both;
 }
 
-.pageContent_portfolio {
-    float: left;
-    background: #ffffff;
-    margin-left: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 90px;
-    width: 650px;
-    height: 850px;
-    border:  1px solid #dddddd;
-    clear: both;
-}
-
 .pageContent p {
     margin-left: 30px;
     width: 600px;
@@ -94,12 +88,16 @@ nav li {
     margin-bottom: 20px;
     border-bottom: 1px solid #cccccc;
 }
-
+/*****************************/
+/* About Me Section */
+/*****************************/
 .biotext {
     float: left;
 
 }
-
+/*****************************/
+/* Contact Section */
+/*****************************/
 .contactForm {
     float: left;
     margin-left: 20px;
@@ -130,6 +128,21 @@ nav li {
     text-decoration: none;
     padding: 10px;
 }
+/*****************************/
+/* Portfolio Section */
+/*****************************/
+.pageContent_portfolio {
+    float: left;
+    background: #ffffff;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 90px;
+    width: 650px;
+    height: 850px;
+    border:  1px solid #dddddd;
+    clear: both;
+}
 
 .box {
     float: left;
@@ -157,7 +170,10 @@ nav li {
 #image5 {
     position: relative;
 }
-
+/*****************************/
+/*****************************/
+/* Connect With Me Section */
+/*****************************/
 .linkBlock {
     float: left;
     background: #ffffff;
@@ -182,18 +198,9 @@ nav li {
     
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    border-top: 5px solid #4aaaa5;
-    background-color: #666666;
-    height: 80px;
-    width: 100%;
-}
-.footText {
-    padding: 30px;
-}
-
+/*****************************/
+/* IDs */
+/*****************************/
 #bioImage {
     width: 200px;
     height: 200px;
@@ -202,7 +209,6 @@ footer {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
 #github-link {
     width: 64px;
     height: 64px;
@@ -221,9 +227,28 @@ footer {
     width: 64px;
     height: 64px;
     margin-bottom: 20px;
-
 }
 
+/*****************************/
+/*****************************/
+/* Footer */
+/*****************************/
+footer {
+    position: fixed;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    height: 80px;
+    width: 100%;
+}
+.footText {
+    padding: 30px;
+}
+
+/*****************************/
+/*****************************/
+/* Headings */
+/*****************************/
 h1 {
     font: 'Georgia';
     font-size: 30px;

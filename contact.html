@@ -4,28 +4,35 @@
 <head>
     <meta charset="utf-8" />
     <title>Basic Portfolio</title>
-<!-- CSS File-->    
- <link rel="stylesheet" href="reset.css">   
- <link rel="stylesheet" type="text/css"  href="./assets/css/style.css" />
+    <!-- CSS File-->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 
 <body>
+    <!-- Header section includes name plate and nav bar-->
     <header>
         <div class="yourName">
             <h1>Christopher Demeke</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="./index.html">About</a></li>|
-                <li><a href="./portfolio.html">Portfolio</a></li>|
-                <li><a href="./contact.html">Contact </a></li>
+                <!-- Links to each html page in folder-->
+                <li>
+                    <a href="./index.html">About</a>
+                </li>|
+                <li>
+                    <a href="./portfolio.html">Portfolio</a>
+                </li>|
+                <li>
+                    <a href="./contact.html">Contact </a>
+                </li>
             </ul>
         </nav>
     </header>
 
-
-
+    <!-- Wrapper contains all page content-->
     <div class="wrapper">
         <section class="pageContent">
             <div class="pageName">
@@ -33,7 +40,7 @@
             </div>
 
             <div class="contactForm">
-            
+
                 <form action="">
                     <label for="name">Name</label>
                     <br>
@@ -52,22 +59,23 @@
                     <br>
                     <br>
                     <a href="#">Submit</a>
-               </form>
+                </form>
 
             </div>
         </section>
 
-        <section class="linkBlock">
-            <div class="connectWM">
-                <h3>Connect with Me</h3>
-            </div>
-            <div class="links">
-                <a href="https://www.github.com"><img id="github-link" src="./assets/images/GitHub/github.png" alt="github-mark"></a>
-                <a href="https://www.linkedin.com/in/christopher-demeke/"><img id="linkedin-link" src="./assets/images/LinkedIn/Linkedin.png" alt="linkedin-mark"></a>
-                <a href="https://www.stackoverflow.com"><img id="stackoverflow-link" src="./assets/images/Stackoverflow/stackoverflow.png" alt="stackoverflow-mark"></a>
-            </div>
-        </section>
-    </div>
+          <!-- Section contains links to github, linked, and stackoverflow-->
+          <section class="linkBlock">
+                <div class="connectWM">
+                    <h3>Connect with Me</h3>
+                </div>
+                <div class="links">
+                    <a href="https://www.github.com"><img id="github-link" src="./assets/images/GitHub/github.png" alt="github-mark"></a>
+                    <a href="https://www.linkedin.com/in/christopher-demeke/"><img id="linkedin-link" src="./assets/images/LinkedIn/Linkedin.png" alt="linkedin-mark"></a>
+                    <a href="https://www.stackoverflow.com"><img id="stackoverflow-link" src="./assets/images/Stackoverflow/stackoverflow.png" alt="stackoverflow-mark"></a>
+                </div>
+            </section>
+        </div>
 
     <footer>
         <div class="footText">
@@ -75,4 +83,5 @@
         </div>
     </footer>
 </body>
+
 </html>

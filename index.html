@@ -4,43 +4,71 @@
 <head>
     <meta charset="utf-8" />
     <title>Basic Portfolio</title>
-    <!-- CSS File-->
+    <!-- CSS Files-->
+    <!-- reset.css is for cross browser normalization -->
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
-
 <body>
+    <!-- Header section includes name plate and nav bar-->
     <header>
         <div class="yourName">
             <h1>Christopher Demeke</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="./index.html">About</a></li>|
-                <li><a href="./portfolio.html">Portfolio</a></li>|
-                <li><a href="./contact.html">Contact </a></li>
+                <!-- Links to each html page in folder-->
+                <li>
+                    <a href="./index.html">About</a>
+                </li>|
+                <li>
+                    <a href="./portfolio.html">Portfolio</a>
+                </li>|
+                <li>
+                    <a href="./contact.html">Contact </a>
+                </li>
             </ul>
         </nav>
     </header>
 
 
-
+    <!-- Wrapper contains all page content-->
     <div class="wrapper">
         <section class="pageContent">
             <div class="pageName">
                 <h2>About Me</h2>
             </div>
             <div class="biotext">
-            <img id="bioImage" src="./assets/images/Chris.jpg" alt="Christopher Demeke">
-           
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi nibh, dignissim condimentum nulla eu, cursus sagittis augue. Ut viverra nisi metus, a venenatis dui vulputate a. Etiam id dictum nisl, nec tincidunt nisi. Aenean volutpat bibendum metus sit amet rutrum. Donec id vulputate velit. Phasellus venenatis cursus ligula, sit amet pellentesque ligula elementum nec. Phasellus quis nunc id magna tempor venenatis ut ut enim. Nam eu elit semper, gravida nunc vel, vulputate ipsum. Morbi libero nibh, finibus eget felis pulvinar, dapibus tempor risus. Integer in massa sodales, eleifend nisl non, dignissim nisl. Proin semper tellus vitae quam ultrices, sed iaculis nisi cursus. Praesent odio sapien, commodo quis mi et, pulvinar finibus urna.</p>
-                <p>Pellentesque aliquam sed purus sagittis vehicula. Vestibulum vitae urna libero. In urna eros, eleifend nec dignissim quis, fringilla eget tellus. Nam et ante ante. Cras eu nibh feugiat, cursus lacus nec, placerat nunc. Nulla et orci posuere, dignissim purus at, varius nisl. Cras tincidunt ipsum dolor, semper porttitor sem pulvinar vel. Nunc pharetra eros et tellus mollis posuere.</p>
-                <p>Aliquam id tortor sit amet lorem fringilla maximus. Quisque eu metus libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo ac nulla ac efficitur. Vivamus sed eleifend nibh. Suspendisse sed dolor vitae tortor rhoncus suscipit sed sed augue. Vestibulum auctor ipsum ut aliquam tincidunt. Quisque vel ligula nec urna faucibus rutrum ac a lacus. Nunc placerat eu felis in pharetra. Vivamus sit amet sapien vel odio sagittis blandit sed nec lectus. Proin vitae mi quis nisl suscipit tempus tincidunt nec felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-                <p>Morbi fermentum libero vitae odio semper, quis gravida ipsum laoreet. Nulla eget condimentum ante, vitae dapibus lectus. Duis est nulla, elementum in massa nec, iaculis consequat tellus. Mauris posuere commodo blandit. Sed pretium risus neque, eget finibus risus tincidunt id. Sed suscipit diam iaculis porta vestibulum. Morbi in risus vel dui aliquam facilisis nec ac sapien. Pellentesque non lorem lorem. Vivamus tristique enim eu dapibus ullamcorper. In purus metus, eleifend id neque in, faucibus blandit sapien.</p>
-        </div>
+                <img id="bioImage" src="./assets/images/Chris.jpg" alt="Christopher Demeke">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi nibh, dignissim condimentum nulla eu,
+                    cursus sagittis augue. Ut viverra nisi metus, a venenatis dui vulputate a. Etiam id dictum nisl, nec
+                    tincidunt nisi. Aenean volutpat bibendum metus sit amet rutrum. Donec id vulputate velit. Phasellus venenatis
+                    cursus ligula, sit amet pellentesque ligula elementum nec. Phasellus quis nunc id magna tempor venenatis
+                    ut ut enim. Nam eu elit semper, gravida nunc vel, vulputate ipsum. Morbi libero nibh, finibus eget felis
+                    pulvinar, dapibus tempor risus. Integer in massa sodales, eleifend nisl non, dignissim nisl. Proin semper
+                    tellus vitae quam ultrices, sed iaculis nisi cursus. Praesent odio sapien, commodo quis mi et, pulvinar
+                    finibus urna.</p>
+                <p>Pellentesque aliquam sed purus sagittis vehicula. Vestibulum vitae urna libero. In urna eros, eleifend nec
+                    dignissim quis, fringilla eget tellus. Nam et ante ante. Cras eu nibh feugiat, cursus lacus nec, placerat
+                    nunc. Nulla et orci posuere, dignissim purus at, varius nisl. Cras tincidunt ipsum dolor, semper porttitor
+                    sem pulvinar vel. Nunc pharetra eros et tellus mollis posuere.</p>
+                <p>Aliquam id tortor sit amet lorem fringilla maximus. Quisque eu metus libero. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Mauris commodo ac nulla ac efficitur. Vivamus sed eleifend nibh. Suspendisse
+                    sed dolor vitae tortor rhoncus suscipit sed sed augue. Vestibulum auctor ipsum ut aliquam tincidunt.
+                    Quisque vel ligula nec urna faucibus rutrum ac a lacus. Nunc placerat eu felis in pharetra. Vivamus sit
+                    amet sapien vel odio sagittis blandit sed nec lectus. Proin vitae mi quis nisl suscipit tempus tincidunt
+                    nec felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                <p>Morbi fermentum libero vitae odio semper, quis gravida ipsum laoreet. Nulla eget condimentum ante, vitae
+                    dapibus lectus. Duis est nulla, elementum in massa nec, iaculis consequat tellus. Mauris posuere commodo
+                    blandit. Sed pretium risus neque, eget finibus risus tincidunt id. Sed suscipit diam iaculis porta vestibulum.
+                    Morbi in risus vel dui aliquam facilisis nec ac sapien. Pellentesque non lorem lorem. Vivamus tristique
+                    enim eu dapibus ullamcorper. In purus metus, eleifend id neque in, faucibus blandit sapien.</p>
+            </div>
         </section>
 
+        <!-- Section contains links to github, linked, and stackoverflow-->
         <section class="linkBlock">
             <div class="connectWM">
                 <h3>Connect with Me</h3>
@@ -53,10 +81,12 @@
         </section>
     </div>
 
+
     <footer>
         <div class="footText">
             <h4> &copy; Copyright 2018 Christopher Demeke</h4>
         </div>
     </footer>
 </body>
+
 </html>
