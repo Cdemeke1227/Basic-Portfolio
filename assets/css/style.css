@@ -9,6 +9,10 @@ body {
 }
 
 header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
     height: 90px;
@@ -46,6 +50,7 @@ nav li {
  }
  
 .wrapper {
+    padding: 70px;
     background-image: url("../images/circles-light/circles-light.png");
     height: 1020px;
     margin: 10px, 600px, 10px, 60px;
