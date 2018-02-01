@@ -46,6 +46,7 @@ nav li {
     width: 100px;
     padding: 20px;
 }
+
  nav a {
     color: #cccccc;
     text-decoration: none;
@@ -151,25 +152,6 @@ nav li {
     margin: 20px;
 }
 
-#image1 {
-    position: relative;
-}
-
-#image2 {
-    position: relative;
-}
-
-#image3 {
-    position: relative;
-}
-
-#image4 {
-    position: relative;
-}
-
-#image5 {
-    position: relative;
-}
 /*****************************/
 /*****************************/
 /* Connect With Me Section */
@@ -201,6 +183,34 @@ nav li {
 /*****************************/
 /* IDs */
 /*****************************/
+#navport {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#image1 {
+    position: relative;
+}
+
+#image2 {
+    position: relative;
+}
+
+#image3 {
+    position: relative;
+}
+
+#image4 {
+    position: relative;
+}
+
+#image5 {
+    position: relative;
+}
+
 #bioImage {
     width: 200px;
     height: 200px;
