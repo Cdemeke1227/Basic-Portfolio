@@ -252,6 +252,21 @@ nav li {
     height: 64px;
     margin-bottom: 20px;
 }
+#gitLinks {
+    margin-left: 20px; 
+    border: 1px solid black;
+    width: 250px;
+    height: 30px;
+    background: black;
+}
+.gitrepo {
+    text-decoration: none;
+}
+.linkText {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
 
 /*****************************/
 /*****************************/
